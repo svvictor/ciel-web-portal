@@ -1,0 +1,45 @@
+:root {
+    --primary: #1B365D;
+    --secondary: #2B6CB0;
+    --accent: #0284C7;
+    --bg-light: #F8FAFC;
+    --text-dark: #0F172A;
+}
+
+body {
+    margin: 0;
+    font-family: 'Liberation Sans', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+}
+
+.badge {
+    background-color: var(--accent);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #0F172A;
+    color: #94A3B8;
+}
