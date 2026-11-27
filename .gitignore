@@ -1,0 +1,19 @@
+# Fichiers et caches système Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Fichiers temporaires et logs d'exécution
+*.tmp
+*.log
+*~
+
+# Configuration locale spécifique à l'éditeur VS Code
+.vscode/
+
+# Secrets d'authentification et variables d'environnement (Cybersécurité)
+.env
+.env.local
+*.key
